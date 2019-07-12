@@ -1,0 +1,15 @@
+{
+  "pages": [
+
+    "pages/index/index",
+    "pages/topic/topic",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "cnode-中文社区",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

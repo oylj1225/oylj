@@ -1,0 +1,12 @@
+<!--pages/topic/topic.wxml-->
+<view class="container">
+  <view class="title">{{title}}</view>
+    <view class="user">
+      <image src="{{avatar_url}}"></image>
+      <view>作者：</view>
+      <view class="author">{{loginname}}</view>
+    </view>
+    <import src="../../wxParse/wxParse.wxml"/>
+
+  <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+</view>

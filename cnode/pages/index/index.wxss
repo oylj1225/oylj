@@ -1,0 +1,21 @@
+/**index.wxss**/
+.list{
+  height: 130rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: 1rpx solid #ccc;
+}
+.list image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+}
+.list .title{
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color:#333;
+
+}

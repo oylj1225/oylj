@@ -1,0 +1,23 @@
+/* pages/topic/topic.wxss */
+.title{
+  text-align: center;
+  font-size: 40rpx;
+  margin:20rpx;
+  color:#000;
+}
+.user{
+  display: flex;
+  align-items: center;
+  padding: 0 50rpx;
+
+}
+.user image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+}
+.user .author{
+  flex: 1;
+  color:green;
+}

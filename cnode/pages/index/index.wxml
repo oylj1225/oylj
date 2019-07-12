@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+    <view wx:for="{{data}}" wx:key="index" class="list">
+      <image src="{{item.author.avatar_url}}"></image>
+        <navigator class="title" url="/pages/topic/topic?id={{item.id}}">{{item.title}}             </navigator>
+    </view>
+</view>

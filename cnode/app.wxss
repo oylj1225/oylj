@@ -1,0 +1,6 @@
+/**app.wxss**/
+@import "/wxParse/wxParse.wxss";
+.container {
+  width: 720rpx;
+  margin:0 auto 20rpx;
+} 
