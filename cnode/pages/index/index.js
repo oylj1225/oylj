@@ -1,5 +1,5 @@
 //index.js
-//获取应用实例
+//获取应用的实例
 const app = getApp()
 
 Page({
